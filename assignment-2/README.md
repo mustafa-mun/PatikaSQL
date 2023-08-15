@@ -15,7 +15,7 @@ WHERE replacement_cost BETWEEN 12.99 and 16.98;
 ### Question 2
 
 - (TURKISH) actor tablosunda bulunan first_name ve last_name sütunlardaki verileri first_name 'Penelope' veya 'Nick' veya 'Ed' değerleri olması koşuluyla sıralayınız. ( IN operatörünü kullanınız.)
-- Arrange the data in first_name and last_name columns of the actor table with the condition that the first_name value is 'Penelope', 'Nick' or 'Ed'. ( use IN clause. ) 
+- Arrange the data in first_name and last_name columns of the actor table with the condition that the first_name value is 'Penelope', 'Nick' or 'Ed'. ( use IN operator. ) 
 
 ```sql
 SELECT first_name, last_name FROM actor
@@ -25,7 +25,7 @@ WHERE first_name IN ('Penelope','Nick','Ed');
 ### Question 3
 
 - (TURKISH) film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99, 2.99, 4.99 VE replacement_cost 12.99, 15.99, 28.99 olma koşullarıyla sıralayınız. ( IN operatörünü kullanınız.)
-- Arrange the data in all columns of the film table with the conditions that the rental rate is either 0.99, 2.99 or 4.99 and the replacement cost is either 12.99, 15.99 or 28.99. ( use IN clause. ) 
+- Arrange the data in all columns of the film table with the conditions that the rental rate is either 0.99, 2.99 or 4.99 and the replacement cost is either 12.99, 15.99 or 28.99. ( use IN operator. ) 
 
 ```sql
 SELECT * FROM film
