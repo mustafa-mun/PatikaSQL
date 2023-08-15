@@ -37,7 +37,12 @@ WHERE rental_rate = 0.99 AND (replacement_cost = 12.99 OR replacement_cost = 28.
 - (TURKISH) customer tablosunda bulunan first_name sütunundaki değeri 'Mary' olan müşterinin last_name sütunundaki değeri nedir?
 - What is the value in the last_name column for the customer whose value in the first_name column in the customer table is 'Mary'?
 
-Smith.
+```sql
+SELECT last_name FROM customer
+WHERE first_name = 'Mary';
+```
+
+The answer is Smith.
 
 ### Question 5
 
