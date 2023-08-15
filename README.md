@@ -1,6 +1,6 @@
 # PatikaSQL
 
-SQL assignments for patika.dev
+SQL assignments for Patika's [SQL course](https://academy.patika.dev/tr/courses/sql)
 
 | Assignment |          Open           |
 | :--------: | :---------------------: |
