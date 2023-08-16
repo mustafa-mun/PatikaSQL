@@ -12,3 +12,4 @@ SQL assignments for Patika's [SQL course](https://academy.patika.dev/tr/courses/
 |     6      |    AGGREGATE FUNCTIONS    | [Open](./assignment-6/) |
 |     7      |     GROUP BY & HAVING     | [Open](./assignment-7/) |
 |     8      |     TABLE OPERATIONS      | [Open](./assignment-8/) |
+|     9      |        INNER JOIN         | [Open](./assignment-9/) |
