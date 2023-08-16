@@ -15,3 +15,4 @@ SQL assignments for Patika's [SQL course](https://academy.patika.dev/tr/courses/
 |     9      |         INNER JOIN         | [Open](./assignment-9/) |
 |     10     |    LEFT-RIGHT-FULL JOIN    | [Open](./assignment-10) |
 |     11     | UNION & INTERSECT & EXCEPT | [Open](./assignment-11) |
+|     12     |   SUBQUERIES & ANY & ALL   | [Open](./assignment-12) |
