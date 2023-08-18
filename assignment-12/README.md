@@ -18,7 +18,7 @@ WHERE length >
 ### Question 2
 
 - (TURKISH) film tablosunda en yüksek rental_rate değerine sahip kaç tane film vardır?
-- How many film are there on the film table which has the maximum rental rate value ?
+- How many films are there on the film table which has the maximum rental rate value ?
 
 ```sql
 SELECT COUNT(*) FROM FILM
@@ -42,7 +42,7 @@ ORDER BY rental_rate, replacement_cost ASC;
 ### Question 4
 
 - (TURKISH) payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
-- Sort the customers by their purchase count.
+- Sort the customers by their purchase count in the payment table.
 
 ```sql
 SELECT customer_id, COUNT(*) AS payment_count
